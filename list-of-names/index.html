@@ -29,28 +29,15 @@
         <div class="min-w-screen min-h-screen bg-gray-100 flex justify-center">
             <div class="w-full lg:w-5/6">
 
-                <center class="mt-12">
+                <center class="mt-12 mb-8">
                     <img src="/img/logo.png" alt="" width="150px"><br>
                     <h1>รายนามเจ้าภาพ</h1>
                     <h2>โครงการนาคากตัญญุตา บรรพชาสามเณร</h2>
                 </center>
+
+                <div id="tablesContainer"></div>
+
                 
-                <div class="bg-white shadow-md rounded my-6 overflow-x-auto">
-                    <!-- Add overflow-x-auto to make the table scrollable -->
-                    <table id="tblReportResultsDemographics" class="min-w-full w-full table-auto">
-                        <!-- Added w-full class for responsiveness -->
-                        <thead>
-                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
-                                <th class="py-3 px-3 text-left">ลำดับ</th>
-                                <th class="py-3 px-3 text-left">ประเภทเจ้าภาพ</th>
-                                <th class="py-3 px-4 text-left">วันที่</th>
-                                <th class="py-3 px-6 text-center">รายนาม</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tableBody" class="text-gray-600 text-sm font-light">
-                        </tbody>
-                    </table>
-                </div>
                 <center class="mt-8">
                     <a href="/contact.html">
                         <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mb-12">
@@ -105,5 +92,6 @@
         </ul>
     </nav>
 </body>
-<script src="./script.js"></script>
+<!-- <script src="./script.js"></script> -->
+ <script src="./fetchdata.js"></script>
 </html>
