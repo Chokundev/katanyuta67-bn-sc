@@ -14,7 +14,7 @@ function createTable(date, data) {
         <div class="bg-white shadow-md rounded my-6 overflow-x-auto">
             <table class="min-w-full w-full table-auto">
                 <thead>
-                    <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                    <tr class="bg-amber-200 text-orange-950 uppercase text-sm leading-normal">
                         <th class="py-3 px-3 text-left">ลำดับ</th>
                         <th class="py-3 px-3 text-left">ประเภทเจ้าภาพ</th>
                         <th class="py-3 px-6 text-center">รายนาม</th>
