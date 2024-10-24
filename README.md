@@ -27,7 +27,7 @@ Here is the file structure for the project:
 
 ```bash
 
-`/.vscode               # Configuration files for VS Code
+/.vscode               # Configuration files for VS Code
 /img                   # Images used in the project (e.g., 'pr-katanyuta.jpg')
 /list-of-names         # Contains data or information about participants
 .gitattributes         # Git configuration file
